@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Nandia";
+    src: url("tipografia/Nandia.ttf");
+}
+
+* {
+    font-family: "Nandia";
+}
+
+.list-navegacion {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    color: #E4B4C2;
+    font-size: 1.1em;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #DDFDFE;
+    background: linear-gradient(#DDFDFE, #E0E1E9);
+}
