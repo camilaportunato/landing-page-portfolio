@@ -1,33 +1,70 @@
-@font-face {
-    font-family: "Nandia";
-    src: url("tipografia/Nandia.ttf");
-}
-
-* {
-    font-family: "Nandia";
-}
-
-.list-navegacion {
-    display: flex;
-    width: 30%;
-    justify-content: space-around;
-    align-items: center;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    color: #E4B4C2;
-    font-size: 1.1em;
-}
-
-header {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #DDFDFE;
-    background: linear-gradient(#DDFDFE, #E0E1E9);
-}
+    @font-face {
+        font-family: "Nandia";
+        src: url("tipografia/Nandia.ttf");
+    }
+    
+    * {
+        font-family: "Nandia";
+    }
+    
+    .body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .list-navegacion {
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        color: #E4B4C2;
+        font-size: 1.1em;
+    }
+    
+    header {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: #DDFDFE;
+        background: linear-gradient(#DDFDFE, #E0E1E9);
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #E4B4C2;
+    }
+    
+    .menu p {
+        font-size: 2em;
+        font-family: "Nandia.ttf";
+        text-transform: uppercase;
+        width: 50%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .menu button {
+        width: 300px;
+        height: 50px;
+        color: #E4B4C2;
+        background-color: white;
+        font-family: "Nandia.ttf";
+        text-transform: uppercase;
+        font-size: 1em;
+        border: 0;
+        outline: 0;
+        border-radius: 20px;
+    }
